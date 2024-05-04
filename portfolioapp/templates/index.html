@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,12 +22,12 @@
         Hamza  KHALEM, Hamza  KHALEM Website, Hamza V KHALEM"
     />
     <!-- Webpage Logo -->
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="shortcut icon" href="{% static 'img/favicon.ico" />
     <!-- Webpage Title -->
     <title>Hamza  KHALEM</title>
     
     <!-- Import CSS: Main Stylesheet -->
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
   </head>
 
   <body>
@@ -66,13 +67,13 @@
         <picture>
           <source
             type="image/webp"
-            srcset="./assets/img/jpg/hamza_khalem.jpeg"
+            srcset="{% static 'img/jpg/hamza_khalem.jpeg"
             alt="Professional Me"
             width="20%"
             style="border-radius: 50%"
           />
           <img
-            src="./assets/img/jpg/Professional-Picture-Me.jpg"
+            src="{% static 'img/jpg/Professional-Picture-Me.jpg"
             alt="Professional Me"
             width="20%"
             style="border-radius: 50%"
@@ -137,8 +138,8 @@
       <div class="user-projects">
         <div class="images-right">
           <picture>
-            <source type="image/webp" srcset="./assets/img/webp/Personal-Resume-Website.webp" alt="Personal Website" />
-            <img alt="Personal Website" src="./assets/img/jpg/Personal-Resume-Website.jpg" />
+            <source type="image/webp" srcset="{% static 'img/webp/Personal-Resume-Website.webp' %}" alt="Personal Website" />
+            <img alt="Personal Website" src="{% static 'img/jpg/Personal-Resume-Website.jpg' %}" />
           </picture>
         </div>
         <div class="contents" style="text-align: center">
@@ -173,8 +174,8 @@
       <div class="user-projects">
         <div class="images-left">
           <picture>
-            <source type="image/webp" srcset="./assets/img/webp/Perpetual-Crusades.webp" alt="Perpetual Crusades" />
-            <img alt="Perpetual Crusades" src="./assets/img/jpg/Perpetual-Crusades.jpg" />
+            <source type="image/webp" srcset="{% static 'img/webp/Perpetual-Crusades.webp' %}" alt="Perpetual Crusades" />
+            <img alt="Perpetual Crusades" src="{% static 'img/jpg/Perpetual-Crusades.jpg' %}" />
           </picture>
         </div>
         <div class="contents-right" style="text-align: center">
@@ -209,8 +210,8 @@
       <div class="user-projects">
         <div class="images-right">
           <picture>
-            <source type="image/webp" srcset="./assets/img/webp/COVID19-Tracker-App.webp" alt="COVID-19 Tracker App" />
-            <img alt="COVID-19 Tracker App" src="./assets/img/jpg/COVID19-Tracker-App.jpg" />
+            <source type="image/webp" srcset="{% static 'img/webp/COVID19-Tracker-App.webp' %}" alt="COVID-19 Tracker App" />
+            <img alt="COVID-19 Tracker App" src="{% static 'img/jpg/COVID19-Tracker-App.jpg' %}" />
           </picture>
         </div>
         <div class="contents" style="text-align: center">
@@ -233,17 +234,17 @@
           </a>
         </div>
       </div>
-
+    
       <!-- Use Project #4: Valuto: Account Management System -->
       <div class="user-projects">
         <div class="images-left">
           <picture>
             <source
               type="image/webp"
-              srcset="./assets/img/webp/Valuto-Account-Management.webp"
+              srcset="{% static 'img/webp/Valuto-Account-Management.webp"
               alt="Valuto: Account Management System"
             />
-            <img alt="Valuto: Account Management System" src="./assets/img/jpg/Valuto-Account-Management.jpg" />
+            <img alt="Valuto: Account Management System" src="{% static 'img/jpg/Valuto-Account-Management.jpg' %}" />
           </picture>
         </div>
         <div class="contents-right" style="text-align: center">
@@ -270,16 +271,16 @@
     </section>
 
     <footer class="footer">
-      <p>&copy; Hamza  KHALEM, 2020</p>
+      <p>&copy; Hamza  KHALEM, 2024</p>
     </footer>
 
     <!-- Import JS: Particles Theme -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <!-- Import JS: Sweet Scroll -->
-    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <script src="{% static 'js/sweet-scroll.min.js' %}"></script>
     <!-- Import JS: Google Analytics -->
-    <script src="./assets/js/google-analytics.js"></script>
+    <script src="{% static 'js/google-analytics.js' %}"></script>
     <!-- Import JS: Main Script -->
-    <script src="./assets/js/main.js"></script>
+    <script src="{% static 'js/main.js' %}"></script>
   </body>
 </html>
