@@ -4916,8 +4916,6 @@ a img {
 .header-icons .icon {
     height: 20px;
     padding: 10px;
-    border-radius: 50%;
-    border: 2px solid #fff;
     transition: all .7s;
     width: 20px;
     font-size: 20px;
@@ -5125,3 +5123,12 @@ a img {
     margin: 0;
     color: #fff
 }
+.my-story {
+    font-size: 1.2rem !important;
+    line-height: 1.5rem;
+    text-align: justify;
+    padding-top: 1.2rem;
+    font-size: 14px;
+    text-indent: 50px;
+}
+
