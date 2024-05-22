@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -55,8 +56,8 @@
           ></a>
         </div>
         <div class="header-links">
-          <a class="link" href="#about" data-scroll>About Me</a>
-          <a class="link" href="#open-source-project" data-scroll>Open Source Projects</a>
+          <a class="link" href="#about" data-scroll>{% trans "about me" %}</a>
+          <a class="link" href="#open-source-project" data-scroll> {% trans "open source projects" %}</a>
           <a class="link" href="#projects" data-scroll>Projects</a>
         </div>
       </div>
