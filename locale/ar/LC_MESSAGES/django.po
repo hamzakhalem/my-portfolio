@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-21 21:02+0100\n"
+"POT-Creation-Date: 2024-05-23 20:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
 #: .\portfolio\settings.py:110
 msgid "English"
 msgstr ""
@@ -32,4 +33,20 @@ msgstr ""
 
 #: .\portfolio\settings.py:113
 msgid "Spanish"
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:59
+msgid "about me"
+msgstr "معلوماتنا"
+
+#: .\portfolioapp\templates\index.html:60
+msgid "open source projects"
+msgstr "مشاريع مفتوحة المصدر"
+
+#: .\portfolioapp\templates\index.html:61
+msgid "projects"
+msgstr "مشاريع كبرى"
+
+#: .\portfolioapp\templates\index.html:71
+msgid "my story"
 msgstr ""

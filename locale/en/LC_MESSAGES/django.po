@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-22 19:56+0100\n"
+"POT-Creation-Date: 2024-05-23 20:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,3 +41,11 @@ msgstr "About Me"
 #: .\portfolioapp\templates\index.html:60
 msgid "open source projects"
 msgstr "Open Source Projects"
+
+#: .\portfolioapp\templates\index.html:61
+msgid "projects"
+msgstr "Projects"
+
+#: .\portfolioapp\templates\index.html:71
+msgid "my story"
+msgstr "My Story"
