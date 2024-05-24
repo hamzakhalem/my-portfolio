@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 20:57+0100\n"
+"POT-Creation-Date: 2024-05-24 20:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,4 +49,26 @@ msgstr "مشاريع كبرى"
 
 #: .\portfolioapp\templates\index.html:71
 msgid "my story"
+msgstr "قصتي"
+
+#: .\portfolioapp\templates\index.html:88
+msgid "stroy desc"
 msgstr ""
+"مرحبًا، أنا حمزة، درست هندسة النظم الحاسوبية الذكية في جامعة الجزائر 1، وهي "
+"واحدة من أفضل الجامعات في الجزائر. خلال دراستي، عملت في عدة تدريبات عملية، "
+"مما ساعدني في بناء أساس قوي في تصميم النظم والهندسة. الآن، بعد أن حصلت على "
+"بضع سنوات من الخبرة العملية، أنا مشارك في بعض المشاريع الكبيرة للتعلم "
+"الإلكتروني حيث نستخدم الذكاء الاصطناعي لجعل التعلم أكثر تخصيصًا وجاذبية. على "
+"الجانب الآخر، أقوم أيضًا بإنشاء محتوى حول التكنولوجيا والبرمجة والذكاء "
+"الاصطناعي. أكتب مقالات في المدونات، وأصنع فيديوهات، وأحاول بشكل عام مشاركة "
+"ما أعرفه مع الآخرين. أستمتع بتبسيط المفاهيم التقنية المعقدة وجعلها أسهل "
+"للفهم. أعتقد أن التكنولوجيا يمكن أن تحدث تأثيرًا كبيرًا على حياة الناس، وأنا "
+"سعيد لأنني أستطيع المساهمة في ذلك"
+
+#: .\portfolioapp\templates\index.html:97
+msgid "languages"
+msgstr "اللغات"
+
+#: .\portfolioapp\templates\index.html:102
+msgid "fav lang desc"
+msgstr "لغاتي المفضلة لبرمجة النظم، هندسة البرمجيات، وهندسة البيانات."

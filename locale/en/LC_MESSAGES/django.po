@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 20:57+0100\n"
+"POT-Creation-Date: 2024-05-24 20:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,3 +49,15 @@ msgstr "Projects"
 #: .\portfolioapp\templates\index.html:71
 msgid "my story"
 msgstr "My Story"
+
+#: .\portfolioapp\templates\index.html:88
+msgid "stroy desc"
+msgstr " Hello, I am Hamza ,I studied Intelligent Computer System Engineering at Algiers 1, one of Algeria's top universities. During my studies, I worked on several internships, which helped me build a solid foundation in system design and engineering. Now that I've got a couple of years of work experience, I'm involved in some big e-learning projects where we use artificial intelligence to make learning more personalized and engaging. On the side, I also create content about technology, programming, and AI. I write blog posts, make videos, and generally try to share what I know with others. I enjoy breaking down complicated tech concepts and making them easier to understand. I think technology can make a huge impact on people's lives, and I'm glad I can contribute to that."
+
+#: .\portfolioapp\templates\index.html:97
+msgid "languages"
+msgstr "Languages"
+
+#: .\portfolioapp\templates\index.html:102
+msgid "fav lang desc"
+msgstr "My favorite languages for systems programming, software engineering, and data engineering."

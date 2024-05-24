@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 20:57+0100\n"
+"POT-Creation-Date: 2024-05-24 20:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,4 +48,30 @@ msgstr "Projet"
 
 #: .\portfolioapp\templates\index.html:71
 msgid "my story"
-msgstr "mon histoire"
+msgstr "Mon Histoir"
+
+#: .\portfolioapp\templates\index.html:88
+msgid "stroy desc"
+msgstr ""
+"Bonjour, je m'appelle Hamza. J'ai étudié l'ingénierie des systèmes "
+"informatiques intelligents à l'Université d'Alger 1, l'une des meilleures "
+"universités d'Algérie. Pendant mes études, j'ai effectué plusieurs stages, "
+"ce qui m'a permis de construire une base solide en conception et en "
+"ingénierie des systèmes. Maintenant que j'ai quelques années d'expérience "
+"professionnelle, je suis impliqué dans des projets importants "
+"d'apprentissage en ligne où nous utilisons l'intelligence artificielle pour "
+"rendre l'apprentissage plus personnalisé et engageant. \n"
+" À côté de cela, je crée également du contenu sur la technologie, la "
+"programmation et l'IA. J'écris des articles de blog, je fais des vidéos et, "
+"de manière générale, j'essaie de partager mes connaissances avec les autres. "
+"J'aime décomposer les concepts techniques complexes pour les rendre plus "
+"faciles à comprendre. Je pense que la technologie peut avoir un impact "
+"énorme sur la vie des gens, et je suis heureux de pouvoir y contribuer."
+
+#: .\portfolioapp\templates\index.html:97
+msgid "languages"
+msgstr "Langages"
+
+#: .\portfolioapp\templates\index.html:102
+msgid "fav lang desc"
+msgstr "Mes langages préférés pour la programmation des systèmes, l'ingénierie logicielle et l'ingénierie des données."
