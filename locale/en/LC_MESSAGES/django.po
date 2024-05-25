@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 20:51+0100\n"
+"POT-Creation-Date: 2024-05-25 17:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,18 @@ msgstr "My Story"
 
 #: .\portfolioapp\templates\index.html:88
 msgid "stroy desc"
-msgstr " Hello, I am Hamza ,I studied Intelligent Computer System Engineering at Algiers 1, one of Algeria's top universities. During my studies, I worked on several internships, which helped me build a solid foundation in system design and engineering. Now that I've got a couple of years of work experience, I'm involved in some big e-learning projects where we use artificial intelligence to make learning more personalized and engaging. On the side, I also create content about technology, programming, and AI. I write blog posts, make videos, and generally try to share what I know with others. I enjoy breaking down complicated tech concepts and making them easier to understand. I think technology can make a huge impact on people's lives, and I'm glad I can contribute to that."
+msgstr ""
+" Hello, I am Hamza ,I studied Intelligent Computer System Engineering at "
+"Algiers 1, one of Algeria's top universities. During my studies, I worked on "
+"several internships, which helped me build a solid foundation in system "
+"design and engineering. Now that I've got a couple of years of work "
+"experience, I'm involved in some big e-learning projects where we use "
+"artificial intelligence to make learning more personalized and engaging. On "
+"the side, I also create content about technology, programming, and AI. I "
+"write blog posts, make videos, and generally try to share what I know with "
+"others. I enjoy breaking down complicated tech concepts and making them "
+"easier to understand. I think technology can make a huge impact on people's "
+"lives, and I'm glad I can contribute to that."
 
 #: .\portfolioapp\templates\index.html:97
 msgid "languages"
@@ -60,4 +71,49 @@ msgstr "Languages"
 
 #: .\portfolioapp\templates\index.html:102
 msgid "fav lang desc"
-msgstr "My favorite languages for systems programming, software engineering, and data engineering."
+msgstr ""
+"My favorite languages for systems programming, software engineering, and "
+"data engineering."
+
+#: .\portfolioapp\templates\index.html:112
+msgid ""
+"My preferred technologies for front-end web development and component design."
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:122
+msgid ""
+"My preferred technologies for back-end web programming and database "
+"architecture"
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:132
+msgid ""
+"My favorite tools for version control, code editing, and container "
+"orchestration."
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:145
+#, fuzzy
+#| msgid "projects"
+msgid "Major  Projects"
+msgstr "Projects"
+
+#: .\portfolioapp\templates\index.html:155
+msgid ""
+"TVTC LMP is a large e-learning platform that allows universities and their "
+"faculties to manage courses, course content, exams, assignments, online "
+"learning with virtual classes, grading systems, and skill development. This "
+"platform is one of my best pieces of work in terms of software engineering, "
+"supporting 300,000 users, including over 20,000 students taking exams "
+"simultaneously. This makes it one of the largest e-learning platforms in the "
+"MENA region."
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:158
+#: .\portfolioapp\templates\index.html:170
+#: .\portfolioapp\templates\index.html:191
+#: .\portfolioapp\templates\index.html:233
+#: .\portfolioapp\templates\index.html:253
+#: .\portfolioapp\templates\index.html:273
+msgid "Check it out"
+msgstr ""

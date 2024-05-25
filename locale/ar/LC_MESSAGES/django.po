@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 20:54+0100\n"
+"POT-Creation-Date: 2024-05-25 17:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,3 +72,46 @@ msgstr "اللغات"
 #: .\portfolioapp\templates\index.html:102
 msgid "fav lang desc"
 msgstr "لغاتي المفضلة لبرمجة النظم، هندسة البرمجيات، وهندسة البيانات."
+
+#: .\portfolioapp\templates\index.html:112
+msgid ""
+"My preferred technologies for front-end web development and component design."
+msgstr "تقنياتي المفضلة لتطوير الويب في الواجهة الأمامية وتصميم المكونات"
+
+#: .\portfolioapp\templates\index.html:122
+msgid ""
+"My preferred technologies for back-end web programming and database "
+"architecture"
+msgstr "تقنياتي المفضلة لبرمجة الويب في الخلفية وهندسة قواعد البيانات"
+
+#: .\portfolioapp\templates\index.html:132
+msgid ""
+"My favorite tools for version control, code editing, and container "
+"orchestration."
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:145
+#, fuzzy
+#| msgid "projects"
+msgid "Major  Projects"
+msgstr "مشاريع كبرى"
+
+#: .\portfolioapp\templates\index.html:155
+msgid ""
+"TVTC LMP is a large e-learning platform that allows universities and their "
+"faculties to manage courses, course content, exams, assignments, online "
+"learning with virtual classes, grading systems, and skill development. This "
+"platform is one of my best pieces of work in terms of software engineering, "
+"supporting 300,000 users, including over 20,000 students taking exams "
+"simultaneously. This makes it one of the largest e-learning platforms in the "
+"MENA region."
+msgstr "منصة TVTC LMP هي منصة تعليم إلكتروني كبيرة تتيح للجامعات وأعضاء هيئات التدريس إدارة الدورات التدريبية، ومحتوى الدورات، والامتحانات، والواجبات، والتعلم عبر الإنترنت من خلال الفصول الافتراضية، وأنظمة التقييم، وتطوير المهارات. تعتبر هذه المنصة واحدة من أفضل أعمالي في مجال هندسة البرمجيات، حيث تدعم 300,000 مستخدم، بما في ذلك أكثر من 20,000 طالب يجرون الامتحانات في نفس الوقت. هذا يجعلها واحدة من أكبر منصات التعليم الإلكتروني في منطقة الشرق الأوسط وشمال أفريقيا."
+
+#: .\portfolioapp\templates\index.html:158
+#: .\portfolioapp\templates\index.html:170
+#: .\portfolioapp\templates\index.html:191
+#: .\portfolioapp\templates\index.html:233
+#: .\portfolioapp\templates\index.html:253
+#: .\portfolioapp\templates\index.html:273
+msgid "Check it out"
+msgstr "شاهد من هنا"

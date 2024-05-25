@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 20:53+0100\n"
+"POT-Creation-Date: 2024-05-25 17:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,4 +74,49 @@ msgstr "Langages"
 
 #: .\portfolioapp\templates\index.html:102
 msgid "fav lang desc"
-msgstr "Mes langages préférés pour la programmation des systèmes, l'ingénierie logicielle et l'ingénierie des données."
+msgstr ""
+"Mes langages préférés pour la programmation des systèmes, l'ingénierie "
+"logicielle et l'ingénierie des données."
+
+#: .\portfolioapp\templates\index.html:112
+msgid ""
+"My preferred technologies for front-end web development and component design."
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:122
+msgid ""
+"My preferred technologies for back-end web programming and database "
+"architecture"
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:132
+msgid ""
+"My favorite tools for version control, code editing, and container "
+"orchestration."
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:145
+#, fuzzy
+#| msgid "projects"
+msgid "Major  Projects"
+msgstr "Projet"
+
+#: .\portfolioapp\templates\index.html:155
+msgid ""
+"TVTC LMP is a large e-learning platform that allows universities and their "
+"faculties to manage courses, course content, exams, assignments, online "
+"learning with virtual classes, grading systems, and skill development. This "
+"platform is one of my best pieces of work in terms of software engineering, "
+"supporting 300,000 users, including over 20,000 students taking exams "
+"simultaneously. This makes it one of the largest e-learning platforms in the "
+"MENA region."
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:158
+#: .\portfolioapp\templates\index.html:170
+#: .\portfolioapp\templates\index.html:191
+#: .\portfolioapp\templates\index.html:233
+#: .\portfolioapp\templates\index.html:253
+#: .\portfolioapp\templates\index.html:273
+msgid "Check it out"
+msgstr ""
