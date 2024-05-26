@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-25 17:27+0100\n"
+"POT-Creation-Date: 2024-05-26 19:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,9 +114,32 @@ msgstr ""
 
 #: .\portfolioapp\templates\index.html:158
 #: .\portfolioapp\templates\index.html:170
-#: .\portfolioapp\templates\index.html:191
-#: .\portfolioapp\templates\index.html:233
-#: .\portfolioapp\templates\index.html:253
-#: .\portfolioapp\templates\index.html:273
+#: .\portfolioapp\templates\index.html:192
+#: .\portfolioapp\templates\index.html:234
+#: .\portfolioapp\templates\index.html:254
+#: .\portfolioapp\templates\index.html:274
 msgid "Check it out"
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:168
+msgid ""
+"A mobile application developed using cross-platform technology, React "
+"Native, for a real estate company, Aymen Promotion. The application displays "
+"current projects with various flat types and allows users to make virtual "
+"visits using 3D modeling. Additionally, users can customize purchased flats, "
+"check the building progress, and view daily changes."
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:189
+msgid ""
+" A platform we created to display free courses and their coupons, helping "
+"people advance in their careers and develop valuable skills."
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:231
+msgid ""
+"It is a platform that displays real-time data using an API. It presents "
+"popular movies, TV shows, and actors, providing details about each. You can "
+"find information on movies and TV shows, such as ratings, cast, genre, and "
+"trailers. You can access it from the here."
 msgstr ""
