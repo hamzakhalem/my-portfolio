@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-26 19:52+0100\n"
+"POT-Creation-Date: 2024-05-27 19:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,7 +114,7 @@ msgstr ""
 #: .\portfolioapp\templates\index.html:192
 #: .\portfolioapp\templates\index.html:234
 #: .\portfolioapp\templates\index.html:254
-#: .\portfolioapp\templates\index.html:274
+#: .\portfolioapp\templates\index.html:275
 msgid "Check it out"
 msgstr ""
 
@@ -139,4 +139,19 @@ msgid ""
 "popular movies, TV shows, and actors, providing details about each. You can "
 "find information on movies and TV shows, such as ratings, cast, genre, and "
 "trailers. You can access it from the here."
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:251
+msgid ""
+" Using Django Channels and HTMX, I developed a Django chat application that "
+"connects users into groups, enabling real-time messaging with live updates."
+msgstr ""
+
+#: .\portfolioapp\templates\index.html:273
+#, python-format
+msgid ""
+"An AI website based on a TensorFlow-trained model using our AnimAi dataset. "
+"We achieved an accuracy of 97%%, and the model is deployed as a web "
+"application. The application stores images and displays them along with the "
+"results of the prediction."
 msgstr ""
