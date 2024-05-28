@@ -159,4 +159,6 @@ msgid ""
 "We achieved an accuracy of 97%%, and the model is deployed as a web "
 "application. The application stores images and displays them along with the "
 "results of the prediction."
-msgstr ""
+msgstr "
+ChatGPT
+لقد أنشأنا موقع ويب يعتمد على الذكاء الاصطناعي باستخدام نموذج مدرب بواسطة TensorFlow باستخدام مجموعة بيانات AnimAi الخاصة بنا. حققنا دقة بنسبة 97%، وتم نشر النموذج كتطبيق ويب. يقوم التطبيق بتخزين الصور وعرضها مع نتائج التنبؤ."

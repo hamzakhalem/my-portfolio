@@ -145,7 +145,7 @@ msgstr ""
 msgid ""
 " Using Django Channels and HTMX, I developed a Django chat application that "
 "connects users into groups, enabling real-time messaging with live updates."
-msgstr ""
+msgstr "Using Django Channels and HTMX, I developed a Django chat application that connects users into groups, enabling real-time messaging with live updates."
 
 #: .\portfolioapp\templates\index.html:273
 #, python-format
@@ -154,4 +154,4 @@ msgid ""
 "We achieved an accuracy of 97%%, and the model is deployed as a web "
 "application. The application stores images and displays them along with the "
 "results of the prediction."
-msgstr ""
+msgstr "An AI website based on a TensorFlow-trained model using our AnimAi dataset.  We achieved an accuracy of 97%%, and the model is deployed as a web application. The application stores images and displays them along with the results of the prediction."
