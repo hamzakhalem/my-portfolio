@@ -78,7 +78,7 @@ msgstr ""
 #: .\portfolioapp\templates\index.html:112
 msgid ""
 "My preferred technologies for front-end web development and component design."
-msgstr ""
+msgstr "My preferred technologies for front-end web development and component design."
 
 #: .\portfolioapp\templates\index.html:122
 msgid ""
