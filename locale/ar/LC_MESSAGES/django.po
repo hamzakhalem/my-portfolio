@@ -130,13 +130,13 @@ msgid ""
 "current projects with various flat types and allows users to make virtual "
 "visits using 3D modeling. Additionally, users can customize purchased flats, "
 "check the building progress, and view daily changes."
-msgstr ""
+msgstr "تطبيق جوال تم تطويره باستخدام تكنولوجيا المنصات المتعددة، React Native، لشركة عقارات، أيمن بروموشن. يعرض التطبيق المشاريع الحالية بأنواع مختلفة من الشقق ويسمح للمستخدمين بإجراء زيارات افتراضية باستخدام النمذجة ثلاثية الأبعاد. بالإضافة إلى ذلك، يمكن للمستخدمين تخصيص الشقق المشتراة، والتحقق من تقدم البناء، ومشاهدة التغييرات اليومية."
 
 #: .\portfolioapp\templates\index.html:189
 msgid ""
 " A platform we created to display free courses and their coupons, helping "
 "people advance in their careers and develop valuable skills."
-msgstr ""
+msgstr "منصة قمنا بإنشائها لعرض الدورات المجانية وكوبوناتها، مما يساعد الناس على التقدم في مسيراتهم المهنية وتطوير مهارات قيمة."
 
 #: .\portfolioapp\templates\index.html:231
 msgid ""
@@ -144,13 +144,13 @@ msgid ""
 "popular movies, TV shows, and actors, providing details about each. You can "
 "find information on movies and TV shows, such as ratings, cast, genre, and "
 "trailers. You can access it from the here."
-msgstr ""
+msgstr "هي منصة تعرض البيانات في الوقت الفعلي باستخدام واجهة برمجة التطبيقات (API). تقدم أفلامًا شهيرة، وبرامج تلفزيونية، وممثلين، وتوفر تفاصيل عن كل منهم. يمكنك العثور على معلومات حول الأفلام والبرامج التلفزيونية، مثل التقييمات، وفريق العمل، والنوع، والإعلانات الترويجية. يمكنك الوصول إليها من هنا."
 
 #: .\portfolioapp\templates\index.html:251
 msgid ""
 " Using Django Channels and HTMX, I developed a Django chat application that "
 "connects users into groups, enabling real-time messaging with live updates."
-msgstr ""
+msgstr "باستخدام Django Channels و HTMX، قمت بتطوير تطبيق دردشة باستخدام Django يربط المستخدمين في مجموعات، مما يتيح المراسلة في الوقت الفعلي مع تحديثات مباشرة"
 
 #: .\portfolioapp\templates\index.html:273
 #, python-format
@@ -159,6 +159,4 @@ msgid ""
 "We achieved an accuracy of 97%%, and the model is deployed as a web "
 "application. The application stores images and displays them along with the "
 "results of the prediction."
-msgstr "
-ChatGPT
-لقد أنشأنا موقع ويب يعتمد على الذكاء الاصطناعي باستخدام نموذج مدرب بواسطة TensorFlow باستخدام مجموعة بيانات AnimAi الخاصة بنا. حققنا دقة بنسبة 97%، وتم نشر النموذج كتطبيق ويب. يقوم التطبيق بتخزين الصور وعرضها مع نتائج التنبؤ."
+msgstr "موقع إلكتروني يعتمد على نموذج مدرب باستخدام TensorFlow باستخدام مجموعة بيانات AnimAi الخاصة بنا. حققنا دقة بنسبة 97٪، وتم نشر النموذج كتطبيق ويب. يخزن التطبيق الصور ويعرضها مع نتائج التنبؤ."
