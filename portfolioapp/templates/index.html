@@ -165,7 +165,8 @@
                       <div class="item d-flex flex-row row align-items-cent ">
                         <div class="col-md-6 col-lg-6 col-sm-11">
                           <h3 class='bold'>Aymen Promotion.</h3>
-                          {% trans "A mobile application developed using cross-platform technology, React Native, for a real estate company, Aymen Promotion. The application displays current projects with various flat types and allows users to make virtual visits using 3D modeling. Additionally, users can customize purchased flats, check the building progress, and view daily changes." %}
+                          <div>
+                            {% trans "A mobile application developed using cross-platform technology, React Native, for a real estate company, Aymen Promotion. The application displays current projects with various flat types and allows users to make virtual visits using 3D modeling. Additionally, users can customize purchased flats, check the building progress, and view daily changes." %}
                             <a class="btn btn-dark" href="https://aymenpromotion-dz.com" target="_blank">
                                {% trans "Check it out" %}
                             </a>
@@ -178,6 +179,7 @@
                           </div>  
                         </div>
                       </div>
+
                       <div class="item d-flex flex-row row align-items-cent ">
                         <div class="col-md-6 col-lg-6 col-sm-11">
                           <h3 class='bold'>WZR Tech</h3>
@@ -205,11 +207,11 @@
       </div>
     </section>
         <!-- PROJECTS -->
-    <section class="project py-5" id="open-source-project">
+    <section class="project py-5" id="open-source-project" style="background: #1488CC; background: -webkit-linear-gradient(to right, #2B32B2, #1488CC); background: linear-gradient(to right, #2B32B2, #1488CC); color: #fff !important">
         <div class="container">
-                
+
                 <div class="row">
-                  <div class="col-lg-12 text-center mx-auto " style="min-height: 350px;">
+                  <div class="col-lg-12 text-center mx-auto " style="min-height: 350px; ">
 
                       <div class="col-lg-8 mx-auto mb-4">
                         <h1>Open Source Projects</h1>
@@ -288,14 +290,15 @@
       
       <div class="container">
         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-        <div class="col-lg-8 mx-auto mb-4">
+        <div class="col-lg-12 mx-auto mb-4">
           <h1>My Articals</h1>
         </div>
+      </div>
         
         <div class="row">
-          <div class="col-lg-12 text-center mx-auto " style="min-height: 350px;">
+          <div class="col-lg-12 text-center mx-auto d-flex flex-row " style="min-height: 350px;">
                     <!-- Card-->
-                    <div class="card shadow-sm border-0 rounded">
+                    <div class="card shadow-sm border-0 rounded mr-2">
                       <div class="card-body p-0">
                         <img src="{% static 'img/project/artical1.png' %}" alt="" class="w-100 card-img-top">
                         <div class="p-4">
@@ -307,7 +310,7 @@
                         </div>
                       </div>
                     </div>
-                  </div>    
+  
                     <div class="card shadow-sm border-0 rounded">
                       <div class="card-body p-0">
                         <img src="{% static 'img/project/artical1.png' %}" alt="" class="w-100 card-img-top">
@@ -320,7 +323,8 @@
                         </div>
                       </div>
                     </div>
-                  </div>    
+         
+            
         </div>
         </div>
       </section>
