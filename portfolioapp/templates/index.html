@@ -91,6 +91,9 @@
       </div>
 
       <!-- User Specifics -->
+
+    </section>
+    <section id="skills"  style="background: #1488CC; background: -webkit-linear-gradient(to right, #2B32B2, #1488CC); background: linear-gradient(to right, #2B32B2, #1488CC); color: #fff !important">
       <div class="user">
         <!-- Technology Stack #1: Languages -->
         <div class="tech">
@@ -133,7 +136,6 @@
         </div>
       </div>
     </section>
-
     <!-- Projects Section -->
     <section class="project py-5" id="projects">
       <div class="container">
@@ -214,7 +216,7 @@
                   <div class="col-lg-12 text-center mx-auto " style="min-height: 350px; ">
 
                       <div class="col-lg-8 mx-auto mb-4">
-                        <h1>Open Source Projects</h1>
+                        <h1 class="text-white">Open Source Projects</h1>
                       </div>
 
                       <div class="owl-carousel  owl-theme container">
@@ -225,7 +227,7 @@
                             </video>  
                           </div>
                           <div class="col-md-6 col-lg-6 col-sm-11">
-                            <h3 class='bold'>MovieLando</h3>
+                            <h3 class='bold text-white'>MovieLando</h3>
                             <h4>
                               <i class="devicon-laravel-plain colored"></i> 
                               <i class="devicon-tailwindcss-original colored"></i>
@@ -245,7 +247,7 @@
                             <img src="{% static 'img/project/django-chat.png' %}" class="img-fluid" />
                           </div>
                           <div class="col-md-6 col-lg-6 col-sm-11">
-                            <h3 class='bold'>Django Chat</h3>
+                            <h3 class='bold text-white'>Django Chat</h3>
                             <h4>
                               <i class="devicon-laravel-plain colored"></i> 
                               <i class="devicon-tailwindcss-original colored"></i>
@@ -266,13 +268,15 @@
                             </video>  
                           </div>
                           <div class="col-md-6 col-lg-6 col-sm-11">
-                            <h3 class='bold'>AnimAi</h3>
+                            <h3 class='bold text-white'>AnimAi</h3>
                             <h4>
                               <i class="devicon-django-plain colored"></i> 
                               <i class="devicon-tensorflow-original colored"></i>
                             </h4>
                             
+                            
                             {% trans "An AI website based on a TensorFlow-trained model using our AnimAi dataset. We achieved an accuracy of 97%, and the model is deployed as a web application. The application stores images and displays them along with the results of the prediction." %}  
+                            <div class="mt-4"> 
                             <a class="btn btn-dark" href="https://github.com/hamzakhalem/django-tansorflow" target="_blank">
                                  {% trans "Check it out" %}
                               </a>
@@ -298,27 +302,27 @@
         <div class="row">
           <div class="col-lg-12 text-center mx-auto d-flex flex-row " style="min-height: 350px;">
                     <!-- Card-->
-                    <div class="card shadow-sm border-0 rounded mr-2">
+                    <div class="card shadow-sm border-0 rounded mr-2 col-lg-6 ">
                       <div class="card-body p-0">
-                        <img src="{% static 'img/project/artical1.png' %}" alt="" class="w-100 card-img-top">
+                        <img src="{% static 'img/project/artical1.png' %}" alt="" class="w-100 card-img-top" style="max-height: 350px">
                         <div class="p-4">
                           <h5 class="mb-0">How To Create An AI Image DataSet in minutes</h5>
                           <p class="small text-muted">2 min reads</p>
                           <ul class="social mb-0 list-inline mt-3">
-                            <li class="list-inline-item m-0"><a href="https://medium.com/@hoh_112/how-to-create-an-ai-image-dataset-in-minutes-0d2e4eb5bf47" class="social-link"><i class="fa fa-medium"></i> check here</a></li>
+                            <li class="list-inline-item m-0"><a href="https://medium.com/@hoh_112/how-to-create-an-ai-image-dataset-in-minutes-0d2e4eb5bf47" class="social-link"><i class="fa fa-medium"></i> {% trans "Check it out" %}</a></li>
                           </ul>
                         </div>
                       </div>
                     </div>
   
-                    <div class="card shadow-sm border-0 rounded">
+                    <div class="card shadow-sm border-0 rounded col-lg-6">
                       <div class="card-body p-0">
-                        <img src="{% static 'img/project/artical1.png' %}" alt="" class="w-100 card-img-top">
+                        <img src="{% static 'img/project/artical2.png' %}" alt="" class="w-100 card-img-top" style="max-height: 350px">
                         <div class="p-4">
                           <h5 class="mb-0">Exploring Data Augmentation Techniques for Image Datasets</h5>
                           <p class="small text-muted">3 min reads</p>
                           <ul class="social mb-0 list-inline mt-3">
-                            <li class="list-inline-item m-0"><a href="https://medium.com/@hoh_112/how-to-create-an-ai-image-dataset-in-minutes-0d2e4eb5bf47" class="social-link"><i class="fa fa-medium"></i> check here</a></li>
+                            <li class="list-inline-item m-0"><a href="https://medium.com/@hoh_112/how-to-create-an-ai-image-dataset-in-minutes-0d2e4eb5bf47" class="social-link"><i class="fa fa-medium"></i> {% trans "Check it out" %}</a></li>
                           </ul>
                         </div>
                       </div>
