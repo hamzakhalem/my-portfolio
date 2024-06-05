@@ -4978,10 +4978,15 @@ a img {
     #about {
         width: 80%
     }
+    #user{
+        width:80%; margin: auto ;
+    }
 }
 
+
 .tech {
-    margin: 10px
+    margin: 10px;
+    max-width: 260px;
 }
 
 .user {
