@@ -5137,3 +5137,9 @@ a img {
     text-indent: 50px;
 }
 
+.bluebg{
+    background: #1488CC; 
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC); 
+    background: linear-gradient(to right, #2B32B2, #1488CC); 
+    color: #fff !important;
+}

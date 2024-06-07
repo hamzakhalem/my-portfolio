@@ -4983,7 +4983,12 @@ a img {
     }
 }
 
-
+.bluebg{
+    background: #1488CC; 
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC); 
+    background: linear-gradient(to right, #2B32B2, #1488CC); 
+    color: #fff !important;
+}
 .tech {
     margin: 10px;
     max-width: 260px;
