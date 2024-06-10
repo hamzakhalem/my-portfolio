@@ -5,9 +5,7 @@ from django.conf.urls.i18n import i18n_patterns
 urlpatterns = [
     # path('admin/', admin.site.urls),
     path('i18n', include('django.conf.urls.i18n')),
-    path('', home, name="index"),
+    path('en/', home, name="index"),
+    path('fr/', home, name="index"),
+    path('ar/', home, name="index"),
 ]
-urlpatterns += i18n_patterns(
-  path('', include('base.urls')),
-  prefix_default_language=True,
-)
