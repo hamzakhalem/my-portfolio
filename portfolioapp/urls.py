@@ -8,5 +8,4 @@ urlpatterns = [
     path('en/', home, name="index"),
     path('fr/', home, name="index"),
     path('ar/', home, name="index"),
-    path('ar/', home, name="index"),
 ]
