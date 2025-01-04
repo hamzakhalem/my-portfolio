@@ -21,7 +21,7 @@
         Hamza  KHALEM, Hamza  KHALEM Website, Hamza V KHALEM"
     />
     <!-- Webpage Logo -->
-    <link rel="shortcut icon" href="{% static 'img/mylogo.ico' %}" />
+    <link rel="shortcut icon" href="{% static 'img/mylogo.ico" />
     <!-- Webpage Title -->
     <title>Hamza  KHALEM</title>
     
@@ -56,9 +56,9 @@
           ></a>
         </div>
         <div class="header-links">
-          <a class="link" href="#about" data-scroll>About Me</a>
-          <a class="link" href="#open-source-project" data-scroll>Open Source Projects</a>
-          <a class="link" href="#projects" data-scroll>Projects</a>
+          <a class="link" href="#about" data-scroll>{% trans "about me" %}</a>
+          <a class="link" href="#open-source-project" data-scroll> {% trans "open source projects" %}</a>
+          <a class="link" href="#projects" data-scroll>{% trans "projects" %}</a>
         </div>
       </div>
       <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
@@ -68,7 +68,7 @@
     <section id="about">
       <!-- User Introduction-->
       <div class="user-details">
-        <h1>My Story</h1>
+        <h1>{% trans "my story" %}</h1>
         <picture>
           <source
             type="image/webp"
@@ -85,8 +85,7 @@
           />
         </picture>
         <p class="my-story">
-          
-          Hello, I am Hamza, a graduate in Intelligent Computer System Engineering from Algiers 1, one of Algeria's top universities. During my studies, I completed several internships that helped me build a strong foundation in system design and engineering. With a couple of years of work experience, I am now actively involved in major e-learning projects where we leverage artificial intelligence to make learning more personalized and engaging. In addition to my professional work, I create content about technology, programming, and AI, sharing knowledge through blog posts, videos, and tutorials. I enjoy simplifying complex tech concepts to make them easier to understand, as I believe technology has the power to transform lives, and I’m passionate about contributing to that transformation.
+          {% trans "stroy desc" %}
          
         </p>
       </div>
@@ -98,12 +97,12 @@
       <div class="user " style="width:80%; margin: auto">
         <!-- Technology Stack #1: Languages -->
         <div class="tech">
-          <h2 class="text-white">Languages</h2>
+          <h2 class="text-white">{% trans "languages" %}</h2>
           <i class="devicon-python-plain colored"></i>
           <i class="devicon-php-plain colored"></i>
           <i class="devicon-javascript-plain colored"></i>
           <i class="devicon-csharp-plain colored"></i>
-          <p>My favorite languages for systems programming, software engineering, and data engineering include</p>
+          <p>{% trans "fav lang desc" %}</p>
         </div>
 
         <!-- Technology Stack #2: Front-End -->
@@ -113,7 +112,7 @@
           <i class="devicon-bootstrap-plain-wordmark colored"></i>
           <i class="devicon-html5-plain-wordmark colored"></i>
           <i class="devicon-css3-plain-wordmark colored"></i>
-          <p>trans "My preferred technologies for front-end web development and component design.</p>
+          <p>{% trans "My preferred technologies for front-end web development and component design." %} </p>
         </div>
 
         <!-- Technology Stack #3: Back-End -->
@@ -123,7 +122,7 @@
           <i class="devicon-laravel-plain colored"></i>
           <i class="devicon-mysql-plain-wordmark colored"></i>
           <i class="devicon-postgresql-plain-wordmark colored"></i>
-          <p>My preferred technologies for back-end web programming and database architecture</p>
+          <p>{% trans "My preferred technologies for back-end web programming and database architecture" %} </p>
         </div>
 
         <!-- Technology Stack #4: Tools -->
@@ -133,7 +132,7 @@
           <i class="devicon-visualstudio-plain colored"></i>
           <i class="devicon-azure-plain colored"></i>
           <i class="devicon-docker-plain-wordmark colored"></i>
-          <p>My favorite tools for version control, code editing, and container orchestration.</p>
+          <p>{% trans "My favorite tools for version control, code editing, and container orchestration." %} </p>
         </div>
       </div>
     </section>
@@ -145,7 +144,7 @@
                 <div class="col-lg-11 text-center mx-auto col-12">
 
                     <div class="col-lg-8 mx-auto mb-4">
-                      <h1>Major  Projects</h1>
+                      <h1>{% trans "Major  Projects" %}</h1>
                     </div>
 
                     <div class="owl-carousel  owl-theme container">
@@ -155,10 +154,10 @@
                         </div>
                         <div class="col-md-6 col-lg-6 col-sm-11">
                           <h3 class='bold'>TVTC Learning Mangemnt Platform</h3>
-                          TVTC LMP is a large e-learning platform that allows universities and their faculties to manage courses, course content, exams, assignments, online learning with virtual classes, grading systems, and skill development. This platform is one of my best pieces of work in terms of software engineering, supporting 300,000 users, including over 20,000 students taking exams simultaneously. This makes it one of the largest e-learning platforms in the MENA region.                                               
+                          {% trans "TVTC LMP is a large e-learning platform that allows universities and their faculties to manage courses, course content, exams, assignments, online learning with virtual classes, grading systems, and skill development. This platform is one of my best pieces of work in terms of software engineering, supporting 300,000 users, including over 20,000 students taking exams simultaneously. This makes it one of the largest e-learning platforms in the MENA region." %}                                               
                           <div class="mt-4"> 
                             <a class="btn btn-dark" href="https://tvtclms.edu.sa" target="_blank">
-                               Check it out
+                               {% trans "Check it out" %}
                             </a>
                           </div>
 
@@ -169,12 +168,10 @@
                         <div class="col-md-6 col-lg-6 col-sm-11">
                           <h3 class='bold'>Aymen Promotion.</h3>
                           <div>
-                            A mobile application developed using cross-platform technology, React Native, for a real estate company, Aymen Promotion. The application displays current projects with various flat types and allows users to make virtual visits using 3D modeling. Additionally, users can customize purchased flats, check the building progress, and view daily changes.
-                            <div class="mt-4"> 
-                              <a class="btn btn-dark" href="https://aymenpromotion-dz.com" target="_blank">
-                                Check it out
-                              </a>
-                            </div>
+                            {% trans "A mobile application developed using cross-platform technology, React Native, for a real estate company, Aymen Promotion. The application displays current projects with various flat types and allows users to make virtual visits using 3D modeling. Additionally, users can customize purchased flats, check the building progress, and view daily changes." %}
+                            <a class="btn btn-dark" href="https://aymenpromotion-dz.com" target="_blank">
+                               {% trans "Check it out" %}
+                            </a>
                           </div>
 
                         </div>
@@ -193,10 +190,10 @@
                             <i class="devicon-bootstrap-plain colored"></i>
                           </h4>
                                               
-                          A platform we created to display free courses and their coupons, helping people advance in their careers and develop valuable skills.
+                          {% trans " A platform we created to display free courses and their coupons, helping people advance in their careers and develop valuable skills." %}
                           <div class="mt-4"> 
                             <a class="btn btn-dark" href="https://wzrtech.pythonanywhere.com/" target="_blank">
-                             Check it out 
+                               {% trans "Check it out" %}
                             </a>
                           </div>
 
@@ -235,10 +232,10 @@
                               <i class="devicon-laravel-plain colored"></i> 
                               <i class="devicon-tailwindcss-original colored"></i>
                             </h4>                                       
-                           It is a platform that displays real-time data using an API. It presents popular movies, TV shows, and actors, providing details about each. You can find information on movies and TV shows, such as ratings, cast, genre, and trailers. You can access it from the here.
+                            {% trans "It is a platform that displays real-time data using an API. It presents popular movies, TV shows, and actors, providing details about each. You can find information on movies and TV shows, such as ratings, cast, genre, and trailers. You can access it from the here." %}
                             <div class="mt-4"> 
                               <a class="btn btn-dark" href="https://github.com/hamzakhalem/laravel_movies" target="_blank">
-                                Check it out
+                                 {% trans "Check it out" %}
                               </a>
                             </div>
                           </div>
@@ -252,13 +249,13 @@
                           <div class="col-md-6 col-lg-6 col-sm-11">
                             <h3 class='bold text-white'>Django Chat</h3>
                             <h4>
-                              <i class="devicon-django-plain colored"></i> 
+                              <i class="devicon-laravel-plain colored"></i> 
                               <i class="devicon-tailwindcss-original colored"></i>
                             </h4>
-                             Using Django Channels and HTMX, I developed a Django chat application that connects users into groups, enabling real-time messaging with live updates.
+                            {% trans " Using Django Channels and HTMX, I developed a Django chat application that connects users into groups, enabling real-time messaging with live updates." %}
                             <div class="mt-4"> 
                               <a class="btn btn-dark" href="https://github.com/hamzakhalem/django-chat" target="_blank">
-                                 Check it out
+                                 {% trans "Check it out" %}
                               </a>
                             </div>
                           </div>
@@ -277,10 +274,10 @@
                             </h4>
                             
                             
-                            An AI website based on a TensorFlow-trained model using our AnimAi dataset. We achieved an accuracy of 97%, and the model is deployed as a web application. The application stores images and displays them along with the results of the prediction.  
+                            {% trans "An AI website based on a TensorFlow-trained model using our AnimAi dataset. We achieved an accuracy of 97%, and the model is deployed as a web application. The application stores images and displays them along with the results of the prediction." %}  
                             <div class="mt-4"> 
                             <a class="btn btn-dark" href="https://github.com/hamzakhalem/django-tansorflow" target="_blank">
-                                 Check it out
+                                 {% trans "Check it out" %}
                               </a>
                             </div>
 
@@ -311,7 +308,7 @@
                           <h5 class="mb-0">How To Create An AI Image DataSet in minutes</h5>
                           <p class="small text-muted">2 min reads</p>
                           <ul class="social mb-0 list-inline mt-3">
-                            <li class="list-inline-item m-0"><a href="https://medium.com/@hoh_112/how-to-create-an-ai-image-dataset-in-minutes-0d2e4eb5bf47" class="social-link"><i class="fa fa-medium"></i> Check it out</a></li>
+                            <li class="list-inline-item m-0"><a href="https://medium.com/@hoh_112/how-to-create-an-ai-image-dataset-in-minutes-0d2e4eb5bf47" class="social-link"><i class="fa fa-medium"></i> {% trans "Check it out" %}</a></li>
                           </ul>
                         </div>
                       </div>
@@ -324,7 +321,7 @@
                           <h5 class="mb-0">Exploring Data Augmentation Techniques for Image Datasets</h5>
                           <p class="small text-muted">3 min reads</p>
                           <ul class="social mb-0 list-inline mt-3">
-                            <li class="list-inline-item m-0"><a href="https://medium.com/@hoh_112/how-to-create-an-ai-image-dataset-in-minutes-0d2e4eb5bf47" class="social-link"><i class="fa fa-medium"></i> Check it out</a></li>
+                            <li class="list-inline-item m-0"><a href="https://medium.com/@hoh_112/how-to-create-an-ai-image-dataset-in-minutes-0d2e4eb5bf47" class="social-link"><i class="fa fa-medium"></i> {% trans "Check it out" %}</a></li>
                           </ul>
                         </div>
                       </div>
