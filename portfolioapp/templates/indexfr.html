@@ -30,6 +30,8 @@
   <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
   <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -52,11 +54,22 @@
         <a aria-label="Envoyer un email" href="mailto:hamzakhalem97@gmail.com" target="_blank">
           <i class="icon fa fa-envelope"></i>
         </a>
+        <div class="dropdown">
+          <a class="btn  dropdown-toggle p-0" type="button" id="langBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="icon fa fa-globe"></i> <!-- World Icon -->
+          </a>
+          <div class="dropdown-menu" aria-labelledby="langBtn">
+            <a class="dropdown-item" href="{% url 'index' %}">🇬🇧 English</a>
+            <a class="dropdown-item" href="{% url 'indexar' %}">🇸🇦 العربية</a>
+            <a class="dropdown-item active" href="{% url 'indexfr' %}">🇫🇷 Français</a>
+          </div>
+        </div>
       </div>
       <div class="header-links">
         <a class="link" href="#about" data-scroll>À propos de moi</a>
         <a class="link" href="#open-source-project" data-scroll>Projets Open Source</a>
         <a class="link" href="#projects" data-scroll>Projets</a>
+        
       </div>
     </div>
     <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
