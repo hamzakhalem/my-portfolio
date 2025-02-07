@@ -2,355 +2,363 @@
 {% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Metadata of the Webpage -->
-    <!-- Character-set Metadata -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Viewport Metadata -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Description Metadata-->
-    <meta name="description" content="Portfolio Website" />
-    <!-- Author Metadata -->
-    <meta name="author" content="Hamza  KHALEM" />
-    <!-- Keyword Metadata -->
-    <meta
-      name="keywords"
-      content="Hamza KHALEM, Hamza  KHALEM, Hamza  KHALEM DPS,
+
+<head>
+  <!-- Metadata of the Webpage -->
+  <!-- Character-set Metadata -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Viewport Metadata -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Description Metadata-->
+  <meta name="description" content="Portfolio Website" />
+  <!-- Author Metadata -->
+  <meta name="author" content="Hamza  KHALEM" />
+  <!-- Keyword Metadata -->
+  <meta name="keywords" content="Hamza KHALEM, Hamza  KHALEM, Hamza  KHALEM DPS,
         Hamza  KHALEM DPSRKP, Hamza  KHALEM Ager, Hamza   Hamza KHALEM NASA,
-        Hamza  KHALEM, Hamza  KHALEM Website, Hamza V KHALEM"
-    />
-    <!-- Webpage Logo -->
-    <link rel="shortcut icon" href="{% static 'img/mylogo.ico" />
-    <!-- Webpage Title -->
-    <title>Hamza  KHALEM</title>
-    
-    <!-- Import CSS: Main Stylesheet -->
-    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/unicons.css' %}">
-    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-  </head>
+        Hamza  KHALEM, Hamza  KHALEM Website, Hamza V KHALEM" />
+  <!-- Webpage Logo -->
+  <link rel="shortcut icon" href="{% static 'img/mylogo.ico' %}" />
+  <!-- Webpage Title -->
+  <title>Hamza KHALEM</title>
 
-  <body>
-    <div id="particles-js">
-      <div class="header">
-        <h1>
-          <span class="site-title">Hamza  KHALEM</span>
-          <span class="site-description">Sofware Engineer • AI Engineer </span>
-        </h1>
-        <div class="header-icons">
-          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/hamza-khalem-436b29201">
-            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
-          </a>
-          <a aria-label="My Github Profile" target="_blank" href="https://github.com/hamzakhalem">
-            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
-          </a>
-          <a aria-label="My Résumé" target="_blank" href="https://www.HamzavKHALEM.com/resume.html">
-            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
-          </a>
-          <a aria-label="Send Email" href="mailto:hamzakhalem97@gmail.com" target="_blank"
-            ><i class="icon fa fa-envelope"></i
-          ></a>
-        </div>
-        <div class="header-links">
-          <a class="link" href="#about" data-scroll>{% trans "about me" %}</a>
-          <a class="link" href="#open-source-project" data-scroll> {% trans "open source projects" %}</a>
-          <a class="link" href="#projects" data-scroll>{% trans "projects" %}</a>
-        </div>
+  <!-- Import CSS: Main Stylesheet -->
+  <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/unicons.css' %}">
+  <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+  <div id="particles-js">
+    <div class="header">
+      <h1>
+        <span class="site-title">Hamza KHALEM</span>
+        <span class="site-description">Ingénieur Logiciel • Ingénieur IA</span>
+      </h1>
+      <div class="header-icons">
+        <a aria-label="Mon profil LinkedIn" target="_blank" href="https://www.linkedin.com/in/hamza-khalem-436b29201">
+          <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a aria-label="Mon profil GitHub" target="_blank" href="https://github.com/hamzakhalem">
+          <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+        </a>
+        <a aria-label="Mon CV" target="_blank" href="https://www.HamzavKHALEM.com/resume.html">
+          <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+        </a>
+        <a aria-label="Envoyer un email" href="mailto:hamzakhalem97@gmail.com" target="_blank">
+          <i class="icon fa fa-envelope"></i>
+        </a>
       </div>
-      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>À propos de moi</a>
+        <a class="link" href="#open-source-project" data-scroll>Projets Open Source</a>
+        <a class="link" href="#projects" data-scroll>Projets</a>
+      </div>
     </div>
+    <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  </div>
 
-    <!-- About Section -->
-    <section id="about">
-      <!-- User Introduction-->
-      <div class="user-details">
-        <h1>{% trans "my story" %}</h1>
-        <picture>
-          <source
-            type="image/webp"
-            srcset="{% static 'img/jpg/hamza_khalem.jpeg'%}"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-          <img
-            src="{% static 'img/jpg/hamza_khalem.jpeg'%}"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-        </picture>
-        <p class="my-story">
-          {% trans "stroy desc" %}
-         
-        </p>
+  <!-- Section À propos -->
+  <section id="about">
+    <div class="user-details">
+      <h1>Mon Histoire</h1>
+      <picture>
+        <source type="image/webp" srcset="{% static 'img/jpg/hamza_khalem.jpeg'%}" alt="Moi Professionnel" width="20%"
+          style="border-radius: 50%" />
+        <img src="{% static 'img/jpg/hamza_khalem.jpeg'%}" alt="Moi Professionnel" width="20%"
+          style="border-radius: 50%" />
+      </picture>
+      <p class="my-story">
+        Bonjour, je suis Hamza, diplômé en ingénierie des systèmes informatiques intelligents de l'Université d'Alger 1,
+        l'une des meilleures universités d'Algérie. Pendant mes études, j'ai effectué plusieurs stages qui m'ont permis
+        de bâtir une solide base en conception et en ingénierie des systèmes...
+      </p>
+    </div>
+  </section>
+  <section id="skills" class="bluebg">
+    <div class="user" style="width:80%; margin: auto">
+      <!-- Technologie #1 : Langages -->
+      <div class="tech">
+        <h2 class="text-white">Langages</h2>
+        <i class="devicon-python-plain colored"></i>
+        <i class="devicon-php-plain colored"></i>
+        <i class="devicon-javascript-plain colored"></i>
+        <i class="devicon-csharp-plain colored"></i>
+        <p>Mes langages préférés pour la programmation système, l'ingénierie logicielle et l'ingénierie des données
+          incluent</p>
       </div>
 
-      <!-- User Specifics -->
-
-    </section>
-    <section id="skills"  class="bluebg">
-      <div class="user " style="width:80%; margin: auto">
-        <!-- Technology Stack #1: Languages -->
-        <div class="tech">
-          <h2 class="text-white">{% trans "languages" %}</h2>
-          <i class="devicon-python-plain colored"></i>
-          <i class="devicon-php-plain colored"></i>
-          <i class="devicon-javascript-plain colored"></i>
-          <i class="devicon-csharp-plain colored"></i>
-          <p>{% trans "fav lang desc" %}</p>
-        </div>
-
-        <!-- Technology Stack #2: Front-End -->
-        <div class="tech">
-          <h2 class="text-white">Front-End</h2>
-          <i class="devicon-react-original colored"></i>
-          <i class="devicon-bootstrap-plain-wordmark colored"></i>
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
-          <p>{% trans "My preferred technologies for front-end web development and component design." %} </p>
-        </div>
-
-        <!-- Technology Stack #3: Back-End -->
-        <div class="tech">
-          <h2 class="text-white">Back-End</h2>
-          <i class="devicon-django-plain colored"></i>
-          <i class="devicon-laravel-plain colored"></i>
-          <i class="devicon-mysql-plain-wordmark colored"></i>
-          <i class="devicon-postgresql-plain-wordmark colored"></i>
-          <p>{% trans "My preferred technologies for back-end web programming and database architecture" %} </p>
-        </div>
-
-        <!-- Technology Stack #4: Tools -->
-        <div class="tech">
-          <h2 class="text-white">Tools</h2>
-          <i class="devicon-git-plain-wordmark colored"></i>
-          <i class="devicon-visualstudio-plain colored"></i>
-          <i class="devicon-azure-plain colored"></i>
-          <i class="devicon-docker-plain-wordmark colored"></i>
-          <p>{% trans "My favorite tools for version control, code editing, and container orchestration." %} </p>
-        </div>
+      <!-- Technologie #2 : Front-End -->
+      <div class="tech">
+        <h2 class="text-white">Front-End</h2>
+        <i class="devicon-react-original colored"></i>
+        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+        <i class="devicon-html5-plain-wordmark colored"></i>
+        <i class="devicon-css3-plain-wordmark colored"></i>
+        <p>Mes technologies préférées pour le développement web front-end et la conception de composants.</p>
       </div>
-    </section>
-    <!-- Projects Section -->
-    <section class="project py-5" id="projects">
-      <div class="container">
-              
-              <div class="row">
-                <div class="col-lg-11 text-center mx-auto col-12">
 
-                    <div class="col-lg-8 mx-auto mb-4">
-                      <h1>{% trans "Major  Projects" %}</h1>
-                    </div>
+      <!-- Technologie #3 : Back-End -->
+      <div class="tech">
+        <h2 class="text-white">Back-End</h2>
+        <i class="devicon-django-plain colored"></i>
+        <i class="devicon-laravel-plain colored"></i>
+        <i class="devicon-mysql-plain-wordmark colored"></i>
+        <i class="devicon-postgresql-plain-wordmark colored"></i>
+        <p>Mes technologies préférées pour la programmation web back-end et l'architecture des bases de données.</p>
+      </div>
 
-                    <div class="owl-carousel  owl-theme container">
-                      <div class="item d-flex flex-row row align-items-cent">
-                        <div class="project-info col-md-6 col-lg-6 col-sm-11">
-                          <img src="{% static 'img/project/tvtc.png' %}" class="img-fluid" />
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-sm-11">
-                          <h3 class='bold'>TVTC Learning Mangemnt Platform</h3>
-                          {% trans "TVTC LMP is a large e-learning platform that allows universities and their faculties to manage courses, course content, exams, assignments, online learning with virtual classes, grading systems, and skill development. This platform is one of my best pieces of work in terms of software engineering, supporting 300,000 users, including over 20,000 students taking exams simultaneously. This makes it one of the largest e-learning platforms in the MENA region." %}                                               
-                          <div class="mt-4"> 
-                            <a class="btn btn-dark" href="https://tvtclms.edu.sa" target="_blank">
-                               {% trans "Check it out" %}
-                            </a>
-                          </div>
+      <!-- Technologie #4 : Outils -->
+      <div class="tech">
+        <h2 class="text-white">Outils</h2>
+        <i class="devicon-git-plain-wordmark colored"></i>
+        <i class="devicon-visualstudio-plain colored"></i>
+        <i class="devicon-azure-plain colored"></i>
+        <i class="devicon-docker-plain-wordmark colored"></i>
+        <p>Mes outils préférés pour le contrôle de version, l'édition de code et l'orchestration de conteneurs.</p>
+      </div>
+    </div>
+  </section>
 
-                        </div>
-                      </div>
+  <!-- Projects Section -->
+  <section class="project py-5" id="projects">
+    <div class="container">
 
-                      <div class="item d-flex flex-row row align-items-cent ">
-                        <div class="col-md-6 col-lg-6 col-sm-11">
-                          <h3 class='bold'>Aymen Promotion.</h3>
-                          <div>
-                            {% trans "A mobile application developed using cross-platform technology, React Native, for a real estate company, Aymen Promotion. The application displays current projects with various flat types and allows users to make virtual visits using 3D modeling. Additionally, users can customize purchased flats, check the building progress, and view daily changes." %}
-                            <a class="btn btn-dark" href="https://aymenpromotion-dz.com" target="_blank">
-                               {% trans "Check it out" %}
-                            </a>
-                          </div>
+      <div class="row">
+        <div class="col-lg-11 text-center mx-auto col-12">
 
-                        </div>
-                        <div class="project-info col-md-6 col-lg-6 col-sm-11">
-                          <div class="project-info col-md-6 col-lg-6 col-sm-11">
-                            <img src="{% static 'img/project/aymen-promo.png' %}" class="img-fluid" />
-                          </div>  
-                        </div>
-                      </div>
+          <div class="col-lg-8 mx-auto mb-4">
+            <h1>Projets Majeurs</h1>
+          </div>
 
-                      <div class="item d-flex flex-row row align-items-cent ">
-                        <div class="col-md-6 col-lg-6 col-sm-11">
-                          <h3 class='bold'>WZR Tech</h3>
-                          <h4>
-                            <i class="devicon-django-plain colored"></i> 
-                            <i class="devicon-bootstrap-plain colored"></i>
-                          </h4>
-                                              
-                          {% trans " A platform we created to display free courses and their coupons, helping people advance in their careers and develop valuable skills." %}
-                          <div class="mt-4"> 
-                            <a class="btn btn-dark" href="https://wzrtech.pythonanywhere.com/" target="_blank">
-                               {% trans "Check it out" %}
-                            </a>
-                          </div>
-
-                        </div>
-                        <div class="project-info col-md-6 col-lg-6 col-sm-11">
-                          <video src="{% static 'img/project/wzrtech.mp4' %}" class="img-fluid" controls>
-                              Your browser does not support the video tag. okay
-                          </video>  
-                        </div>
-                      </div>
+          <div class="owl-carousel owl-theme container">
+            <div class="item d-flex flex-row row align-items-cent">
+              <div class="project-info col-md-6 col-lg-6 col-sm-11">
+                <img src="{% static 'img/project/tvtc.png' %}" class="img-fluid" />
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-11">
+                <h3 class='bold'>Plateforme de Gestion de l'Apprentissage TVTC</h3>
+                TVTC LMP est une grande plateforme d'apprentissage en ligne qui permet aux universités et à leurs
+                facultés de gérer les cours, le contenu des cours, les examens, les devoirs, l'apprentissage en ligne
+                avec des classes virtuelles, les systèmes de notation et le développement des compétences. Cette
+                plateforme est l'un de mes meilleurs travaux en matière d'ingénierie logicielle, supportant 300 000
+                utilisateurs, dont plus de 20 000 étudiants passant des examens simultanément. Cela en fait l'une des
+                plus grandes plateformes d'apprentissage en ligne dans la région MENA.
+                <div class="mt-4">
+                  <a class="btn btn-dark" href="https://tvtclms.edu.sa" target="_blank">
+                    Découvrez-le
+                  </a>
                 </div>
               </div>
-      </div>
-    </section>
-        <!-- PROJECTS -->
-    <section class="project py-5 bluebg" id="open-source-project" >
-        <div class="container">
+            </div>
 
-                <div class="row">
-                  <div class="col-lg-12 text-center mx-auto " style="min-height: 350px; ">
-
-                      <div class="col-lg-8 mx-auto mb-4">
-                        <h1 class="text-white">Open Source Projects</h1>
-                      </div>
-
-                      <div class="owl-carousel  owl-theme container">
-                        <div class="item d-flex flex-row row align-items-cent">
-                          <div class="project-info col-md-6 col-lg-6 col-sm-11">
-                            <video src="{% static 'img/project/movielando.mp4' %}" class="img-fluid" controls>
-                                Your browser does not support the video tag. okay
-                            </video>  
-                          </div>
-                          <div class="col-md-6 col-lg-6 col-sm-11">
-                            <h3 class='bold text-white'>MovieLando</h3>
-                            <h4>
-                              <i class="devicon-laravel-plain colored"></i> 
-                              <i class="devicon-tailwindcss-original colored"></i>
-                            </h4>                                       
-                            {% trans "It is a platform that displays real-time data using an API. It presents popular movies, TV shows, and actors, providing details about each. You can find information on movies and TV shows, such as ratings, cast, genre, and trailers. You can access it from the here." %}
-                            <div class="mt-4"> 
-                              <a class="btn btn-dark" href="https://github.com/hamzakhalem/laravel_movies" target="_blank">
-                                 {% trans "Check it out" %}
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-
-                        
-                        <div class="item d-flex flex-row row align-items-cent">
-                          <div class="project-info col-md-6 col-lg-6 col-sm-11">
-                            <img src="{% static 'img/project/django-chat.png' %}" class="img-fluid" />
-                          </div>
-                          <div class="col-md-6 col-lg-6 col-sm-11">
-                            <h3 class='bold text-white'>Django Chat</h3>
-                            <h4>
-                              <i class="devicon-laravel-plain colored"></i> 
-                              <i class="devicon-tailwindcss-original colored"></i>
-                            </h4>
-                            {% trans " Using Django Channels and HTMX, I developed a Django chat application that connects users into groups, enabling real-time messaging with live updates." %}
-                            <div class="mt-4"> 
-                              <a class="btn btn-dark" href="https://github.com/hamzakhalem/django-chat" target="_blank">
-                                 {% trans "Check it out" %}
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="item d-flex flex-row row align-items-cent">
-                          <div class="project-info col-md-6 col-lg-6 col-sm-11">
-                            <video src="{% static 'img/project/AnimAI.mp4' %}" class="img-fluid" controls>
-                                Your browser does not support the video tag.
-                            </video>  
-                          </div>
-                          <div class="col-md-6 col-lg-6 col-sm-11">
-                            <h3 class='bold text-white'>AnimAi</h3>
-                            <h4>
-                              <i class="devicon-django-plain colored"></i> 
-                              <i class="devicon-tensorflow-original colored"></i>
-                            </h4>
-                            
-                            
-                            {% trans "An AI website based on a TensorFlow-trained model using our AnimAi dataset. We achieved an accuracy of 97%, and the model is deployed as a web application. The application stores images and displays them along with the results of the prediction." %}  
-                            <div class="mt-4"> 
-                            <a class="btn btn-dark" href="https://github.com/hamzakhalem/django-tansorflow" target="_blank">
-                                 {% trans "Check it out" %}
-                              </a>
-                            </div>
-
-                          </div>
-                        </div>
-                        
-
+            <div class="item d-flex flex-row row align-items-cent">
+              <div class="col-md-6 col-lg-6 col-sm-11">
+                <h3 class='bold'>Aymen Promotion.</h3>
+                <div>
+                  Une application mobile développée en utilisant la technologie multiplateforme React Native pour une
+                  entreprise immobilière, Aymen Promotion. L'application affiche les projets en cours avec différents
+                  types d'appartements et permet aux utilisateurs de faire des visites virtuelles en utilisant la
+                  modélisation 3D. De plus, les utilisateurs peuvent personnaliser les appartements achetés, vérifier
+                  l'avancement de la construction et voir les changements quotidiens.
+                  <div class="mt-4">
+                    <a class="btn btn-dark" href="https://aymenpromotion-dz.com" target="_blank">
+                      Découvrez-le
+                    </a>
                   </div>
                 </div>
+              </div>
+              <div class="project-info col-md-6 col-lg-6 col-sm-11">
+                <div class="project-info col-md-6 col-lg-6 col-sm-11">
+                  <img src="{% static 'img/project/aymen-promo.png' %}" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+
+            <div class="item d-flex flex-row row align-items-cent">
+              <div class="col-md-6 col-lg-6 col-sm-11">
+                <h3 class='bold'>WZR Tech</h3>
+                <h4>
+                  <i class="devicon-django-plain colored"></i>
+                  <i class="devicon-bootstrap-plain colored"></i>
+                </h4>
+                Une plateforme que nous avons créée pour afficher des cours gratuits et leurs coupons, afin d'aider les
+                gens à progresser dans leurs carrières et à développer des compétences précieuses.
+                <div class="mt-4">
+                  <a class="btn btn-dark" href="https://wzrtech.pythonanywhere.com/" target="_blank">
+                    Découvrez-le
+                  </a>
+                </div>
+              </div>
+              <div class="project-info col-md-6 col-lg-6 col-sm-11">
+                <video src="{% static 'img/project/wzrtech.mp4' %}" class="img-fluid" controls>
+                  Votre navigateur ne supporte pas la balise vidéo. D'accord
+                </video>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <section class="project py-5" id="open-source-project">
-      
-      <div class="container">
-        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="project py-5 bluebg" id="open-source-project">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12 text-center mx-auto" style="min-height: 350px; ">
+
+          <div class="col-lg-8 mx-auto mb-4">
+            <h1 class="text-white">Projets Open Source</h1>
+          </div>
+
+          <div class="owl-carousel owl-theme container">
+            <div class="item d-flex flex-row row align-items-cent">
+              <div class="project-info col-md-6 col-lg-6 col-sm-11">
+                <video src="{% static 'img/project/movielando.mp4' %}" class="img-fluid" controls>
+                  Votre navigateur ne supporte pas la balise vidéo. D'accord
+                </video>
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-11">
+                <h3 class='bold text-white'>MovieLando</h3>
+                <h4>
+                  <i class="devicon-laravel-plain colored"></i>
+                  <i class="devicon-tailwindcss-original colored"></i>
+                </h4>
+                Il s'agit d'une plateforme qui affiche des données en temps réel à l'aide d'une API. Elle présente les
+                films populaires, les émissions de télévision et les acteurs, en fournissant des détails sur chacun.
+                Vous pouvez trouver des informations sur les films et les émissions de télévision, comme les
+                évaluations, le casting, le genre et les bandes-annonces. Vous pouvez y accéder ici.
+                <div class="mt-4">
+                  <a class="btn btn-dark" href="https://github.com/hamzakhalem/laravel_movies" target="_blank">
+                    Découvrez-le
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="item d-flex flex-row row align-items-cent">
+              <div class="project-info col-md-6 col-lg-6 col-sm-11">
+                <img src="{% static 'img/project/django-chat.png' %}" class="img-fluid" />
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-11">
+                <h3 class='bold text-white'>Django Chat</h3>
+                <h4>
+                  <i class="devicon-django-plain colored"></i>
+                  <i class="devicon-tailwindcss-original colored"></i>
+                </h4>
+                En utilisant Django Channels et HTMX, j'ai développé une application de chat Django qui connecte les
+                utilisateurs en groupes, permettant la messagerie en temps réel avec des mises à jour en direct.
+                <div class="mt-4">
+                  <a class="btn btn-dark" href="https://github.com/hamzakhalem/django-chat" target="_blank">
+                    Découvrez-le
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="item d-flex flex-row row align-items-cent">
+              <div class="project-info col-md-6 col-lg-6 col-sm-11">
+                <video src="{% static 'img/project/AnimAI.mp4' %}" class="img-fluid" controls>
+                  Votre navigateur ne supporte pas la balise vidéo.
+                </video>
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-11">
+                <h3 class='bold text-white'>AnimAi</h3>
+                <h4>
+                  <i class="devicon-django-plain colored"></i>
+                  <i class="devicon-tensorflow-original colored"></i>
+                </h4>
+                Un site web basé sur un modèle entraîné avec TensorFlow utilisant notre jeu de données AnimAi. Nous
+                avons atteint une précision de 97%, et le modèle est déployé en tant qu'application web. L'application
+                stocke les images et les affiche avec les résultats de la prédiction.
+                <div class="mt-4">
+                  <a class="btn btn-dark" href="https://github.com/hamzakhalem/django-tansorflow" target="_blank">
+                    Découvrez-le
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project py-5" id="open-source-project">
+
+    <div class="container">
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
         <div class="col-lg-12 mx-auto mb-4">
           <h1>My Articals</h1>
         </div>
       </div>
-        
-        <div class="row">
-          <div class="col-lg-12 text-center mx-auto d-flex flex-row " style="min-height: 350px;">
-                    <!-- Card-->
-                    <div class="card shadow-sm border-0 rounded mr-2 col-lg-6 ">
-                      <div class="card-body p-0">
-                        <img src="{% static 'img/project/artical1.png' %}" alt="" class="w-100 card-img-top" style="max-height: 350px">
-                        <div class="p-4">
-                          <h5 class="mb-0">How To Create An AI Image DataSet in minutes</h5>
-                          <p class="small text-muted">2 min reads</p>
-                          <ul class="social mb-0 list-inline mt-3">
-                            <li class="list-inline-item m-0"><a href="https://medium.com/@hoh_112/how-to-create-an-ai-image-dataset-in-minutes-0d2e4eb5bf47" class="social-link"><i class="fa fa-medium"></i> {% trans "Check it out" %}</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-  
-                    <div class="card shadow-sm border-0 rounded col-lg-6">
-                      <div class="card-body p-0">
-                        <img src="{% static 'img/project/artical2.png' %}" alt="" class="w-100 card-img-top" style="max-height: 350px">
-                        <div class="p-4">
-                          <h5 class="mb-0">Exploring Data Augmentation Techniques for Image Datasets</h5>
-                          <p class="small text-muted">3 min reads</p>
-                          <ul class="social mb-0 list-inline mt-3">
-                            <li class="list-inline-item m-0"><a href="https://medium.com/@hoh_112/how-to-create-an-ai-image-dataset-in-minutes-0d2e4eb5bf47" class="social-link"><i class="fa fa-medium"></i> {% trans "Check it out" %}</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-         
-            
-        </div>
-        </div>
-      </section>
 
-    <footer class="footer">
-      <p>&copy; Hamza  KHALEM, 2024</p>
-    </footer>
+      <div class="row">
+        <div class="col-lg-12 text-center mx-auto d-flex flex-row " style="min-height: 350px;">
+          <!-- Card-->
+          <div class="card shadow-sm border-0 rounded mr-2 col-lg-6 ">
+            <div class="card-body p-0">
+              <img src="{% static 'img/project/artical1.png' %}" alt="" class="w-100 card-img-top"
+                style="max-height: 350px">
+              <div class="p-4">
+                <h5 class="mb-0">How To Create An AI Image DataSet in minutes</h5>
+                <p class="small text-muted">2 min reads</p>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item m-0"><a
+                      href="https://medium.com/@hoh_112/how-to-create-an-ai-image-dataset-in-minutes-0d2e4eb5bf47"
+                      class="social-link"><i class="fa fa-medium"></i> Check it out</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-    <!-- Import JS: Particles Theme -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <!-- Import JS: Sweet Scroll -->
-    <script src="{% static 'js/sweet-scroll.min.js' %}"></script>
-    <!-- Import JS: Google Analytics -->
-    <script src="{% static 'js/google-analytics.js' %}"></script>
-    <!-- Import JS: Main Script -->
-    <script src="{% static 'js/main.js' %}"></script>
-    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
-    <script src="{% static 'js/popper.min.js' %}"></script>
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
-    <script src="{% static 'js/Headroom.js' %}"></script>
-    <script src="{% static 'js/jQuery.headroom.js' %}"></script>
-    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
-    <script src="{% static 'js/smoothscroll.js' %}"></script>
-    <script src="{% static 'js/custom.js' %}"></script>
-  </body>
+          <div class="card shadow-sm border-0 rounded col-lg-6">
+            <div class="card-body p-0">
+              <img src="{% static 'img/project/artical2.png' %}" alt="" class="w-100 card-img-top"
+                style="max-height: 350px">
+              <div class="p-4">
+                <h5 class="mb-0">Exploring Data Augmentation Techniques for Image Datasets</h5>
+                <p class="small text-muted">3 min reads</p>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item m-0"><a
+                      href="https://medium.com/@hoh_112/how-to-create-an-ai-image-dataset-in-minutes-0d2e4eb5bf47"
+                      class="social-link"><i class="fa fa-medium"></i> Check it out</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; Hamza KHALEM, 2024</p>
+  </footer>
+
+  <!-- Import JS: Particles Theme -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- Import JS: Sweet Scroll -->
+  <script src="{% static 'js/sweet-scroll.min.js' %}"></script>
+  <!-- Import JS: Google Analytics -->
+  <script src="{% static 'js/google-analytics.js' %}"></script>
+  <!-- Import JS: Main Script -->
+  <script src="{% static 'js/main.js' %}"></script>
+  <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+  <script src="{% static 'js/popper.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/Headroom.js' %}"></script>
+  <script src="{% static 'js/jQuery.headroom.js' %}"></script>
+  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'js/smoothscroll.js' %}"></script>
+  <script src="{% static 'js/custom.js' %}"></script>
+</body>
+
 </html>
